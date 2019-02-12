@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class BusStop {
 
-    String name;
-    ArrayList<Passenger> queue;
+    private String name;
+    private ArrayList<Passenger> queue;
 
     public BusStop(String name){
         this.name = name;

@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
 public class Bus {
-    String destination;
-    int capacity;
-    ArrayList<Passenger> passengers;
+
+    private String destination;
+    private int capacity;
+    private ArrayList<Passenger> passengers;
 
 
     public Bus(String desintation){
@@ -25,10 +26,10 @@ public class Bus {
     }
 
     public void pickUpFromStop(BusStop busStop){
-        if (this.capacity > 0){
+        if (this.capacity > getPassengerCount()){
             Passenger passenger = busStop.removeFromQueue();
             this.passengers.add(passenger);
-            this.capacity -= 1;
+
         }
     }
 

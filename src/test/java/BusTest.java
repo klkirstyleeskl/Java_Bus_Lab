@@ -43,11 +43,6 @@ public class BusTest {
         assertEquals(1, bus.getPassengerCount());
     }
 
-    @Test
-    public void addingPassengerReducesCapacity(){
-        bus.pickUpFromStop(busStop);
-        assertEquals(2, bus.getRemainingCapacity());
-    }
 
     @Test
     public void busCantGoOverCapacity(){
