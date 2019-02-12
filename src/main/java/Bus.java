@@ -8,7 +8,7 @@ public class Bus {
 
     public Bus(String desintation){
         this.destination = desintation;
-        this.capacity = 50;
+        this.capacity = 3;
         this.passengers = new ArrayList<>();
     }
 
@@ -20,10 +20,13 @@ public class Bus {
         return this.capacity;
     }
 
-    public int getPassengerList(){
+    public int getPassengerCount(){
         return this.passengers.size();
     }
 
+    public void addPassenger(Passenger passenger){
+        this.passengers.add(passenger);
+    }
 
 
 
