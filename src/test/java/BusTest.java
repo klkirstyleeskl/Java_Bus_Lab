@@ -16,4 +16,9 @@ public class BusTest {
         assertEquals("PartyTown", bus.getDestination());
 
     }
+
+    @Test
+    public void startsEmpty(){
+        assertEquals(50, bus.getRemainingCapacity());
+    }
 }
