@@ -25,8 +25,10 @@ public class Bus {
     }
 
     public void addPassenger(Passenger passenger){
-        this.passengers.add(passenger);
-        this.capacity -= 1;
+        if (this.capacity > 0){
+            this.passengers.add(passenger);
+            this.capacity -= 1;
+        }
     }
 
 

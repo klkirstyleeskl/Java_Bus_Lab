@@ -39,4 +39,13 @@ public class BusTest {
         bus.addPassenger(passenger);
         assertEquals(2, bus.getRemainingCapacity());
     }
+
+    @Test
+    public void busCantGoOverCapacity(){
+        bus.addPassenger(passenger);
+        bus.addPassenger(passenger);
+        bus.addPassenger(passenger);
+        bus.addPassenger(passenger);
+        assertEquals(3, bus.getPassengerCount());
+    }
 }

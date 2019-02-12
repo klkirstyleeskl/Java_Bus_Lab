@@ -23,7 +23,7 @@
     <session id="-1223712743">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="2" />
@@ -41,23 +41,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1002" />
+          <entry key="java" value="1073" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1002" />
+          <entry key="JAVA" value="1073" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="282">
+              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -448,7 +448,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549978143736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549978477500" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -462,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusTest.addingPassengerReducesCapacity">
+  <component name="RunManager" selected="JUnit.BusTest.busCantGoOverCapacity">
     <configuration name="BusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusLab_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -476,6 +476,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BusTest" />
       <option name="METHOD_NAME" value="addingPassengerReducesCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusTest.busCantGoOverCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusLab_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusTest" />
+      <option name="METHOD_NAME" value="busCantGoOverCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -501,30 +511,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusTest.startsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BusLab_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="startsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.BusTest" />
-      <item itemvalue="JUnit.BusTest.startsEmpty" />
       <item itemvalue="JUnit.BusTest.hasAListOfPassengers" />
       <item itemvalue="JUnit.BusTest.canAddAPassenger" />
       <item itemvalue="JUnit.BusTest.addingPassengerReducesCapacity" />
+      <item itemvalue="JUnit.BusTest.busCantGoOverCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BusTest.busCantGoOverCapacity" />
         <item itemvalue="JUnit.BusTest.addingPassengerReducesCapacity" />
         <item itemvalue="JUnit.BusTest.canAddAPassenger" />
         <item itemvalue="JUnit.BusTest" />
         <item itemvalue="JUnit.BusTest.hasAListOfPassengers" />
-        <item itemvalue="JUnit.BusTest.startsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -554,10 +554,21 @@
     <history-entry file="BusTest - 2019.02.12 at 13h 18m 42s.xml">
       <configuration name="BusTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BusTest_canAddAPassenger - 2019.02.12 at 13h 26m 36s.xml">
+      <configuration name="BusTest.canAddAPassenger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_addingPassengerReducesCapacity - 2019.02.12 at 13h 28m 16s.xml">
+      <configuration name="BusTest.addingPassengerReducesCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_addingPassengerReducesCapacity - 2019.02.12 at 13h 29m 06s.xml">
+      <configuration name="BusTest.addingPassengerReducesCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_busCantGoOverCapacity - 2019.02.12 at 13h 32m 01s.xml">
+      <configuration name="BusTest.busCantGoOverCapacity" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="672" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -568,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32931036" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,10 +611,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="278">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
@@ -611,16 +632,6 @@
             <element signature="e#433#434#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
