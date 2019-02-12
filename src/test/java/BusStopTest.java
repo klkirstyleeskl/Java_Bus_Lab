@@ -30,6 +30,17 @@ public class BusStopTest {
         assertEquals(1, busStop.getQueueLength());
     }
 
+    @Test
+    public void canRemoveFromQueue(){
+        busStop.addToQueue(passenger);
+        busStop.addToQueue(passenger);
+        busStop.removeFromQueue();
+        assertEquals(1, busStop.getQueueLength());
+    }
+
+
+
+
 
 
 
